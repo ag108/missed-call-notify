@@ -20,7 +20,7 @@ if len(sys.argv) == 4:
 
 # When 3 args
 elif len(sys.argv) == 3:
-        msg['To'] = sys.argv[2] + "@capital.local"
+        msg['To'] = sys.argv[2] + "@example.com"
         msg['Subject'] = "Пропущен звонок от " + sys.argv[1]
         message = "Вам звонил абонент " + sys.argv[1] + " на номер " + sys.argv[2]
 
